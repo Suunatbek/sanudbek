@@ -1,0 +1,41 @@
+.quote-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .quote-card {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  .quote-card.active {
+    opacity: 1;
+  }
+  
+  .quote-image img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .quote-text {
+    font-size: 1rem;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .quote-author h4 {
+    margin: 10px 0 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .quote-author p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

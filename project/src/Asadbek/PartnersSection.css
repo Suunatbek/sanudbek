@@ -1,0 +1,26 @@
+.partners-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .partners-section h2 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .partners-section h2 span {
+    font-weight: bold;
+  }
+  
+  .partners-logos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .partners-logos img {
+    max-width: 100px;
+    height: auto;
+  }
+  
